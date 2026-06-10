@@ -1,0 +1,13 @@
+# Zorg dat tekstbestanden automatisch worden gecorrigeerd naar het juiste regel-einde
+* text=auto
+
+# Forceer C# scripts om als tekst te worden gezien
+*.cs text diff=csharp
+*.shader text
+
+# Zorg dat Unity-bestanden als binair worden gezien zodat Git er niet aangekomt
+*.mat binary
+*.anim binary
+*.asset binary
+*.unity binary
+*.prefab binary

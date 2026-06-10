@@ -1,0 +1,23 @@
+# Unity tijdelijke mappen overal negeren
+Library/
+library/
+Temp/
+temp/
+Obj/
+obj/
+Build/
+build/
+Builds/
+builds/
+Logs/
+logs/
+UserSettings/
+usersettings/
+
+# Visual Studio bestanden negeren
+.vs/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
